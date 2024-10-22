@@ -1,2 +1,18 @@
-<h1>Welcome to SvelteKit</h1>
-<p>Visit <a href="https://kit.svelte.dev">kit.svelte.dev</a> to read the documentation</p>
+<script>
+	let nome = 'Pedro Siqueira';
+	let a = 10;
+	let b = 20;
+</script>
+
+<p class="azul">Bem vindo, {nome}!</p>
+<p class="vermelho">{a} + {b} = {a + b}</p>
+
+<style>
+	.azul {
+		color: blue;
+	}
+
+	.vermelho {
+		color: red;
+	}
+</style>
