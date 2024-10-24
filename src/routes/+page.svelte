@@ -11,6 +11,11 @@
 <p class="azul">Meu nome é {nome}!</p>
 <p class="vermelho">{a} + {b} = {a + b}</p>
 
+<p>
+	Calculadora de temperatura:
+	<a href="./temperatura">Clique aqui</a>!
+</p>
+
 <Rodape />
 
 <style>
