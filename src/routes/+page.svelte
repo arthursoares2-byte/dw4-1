@@ -1,11 +1,17 @@
 <script>
-	let nome = 'Pedro Siqueira';
+	import Cabecalho from './Cabecalho.svelte';
+	import Rodape from './Rodape.svelte';
+	let nome = 'Mude seu nome aqui';
 	let a = 10;
 	let b = 20;
 </script>
 
-<p class="azul">Bem vindo, {nome}!</p>
+<Cabecalho />
+
+<p class="azul">Meu nome é {nome}!</p>
 <p class="vermelho">{a} + {b} = {a + b}</p>
+
+<Rodape />
 
 <style>
 	.azul {
