@@ -1,14 +1,29 @@
 <script>
-	let n1, n2;
-	let resposta = '';
-	function acao() {
-		if (n1 && n2) resposta = n1 + n2;
-	}
+	import Cabecalho from './Cabecalho.svelte';
+	import Rodape from './Rodape.svelte';
+	let nome = 'Mude seu nome aqui';
+	let a = 10;
+	let b = 20;
 </script>
 
-<p>Digite dois números...</p>
-<input type="number" name="n1" id="n1" bind:value={n1} />
-<input type="number" name="n2" id="n2" bind:value={n2} />
-<button on:click={acao}>Ação!</button>
+<Cabecalho />
 
-<p>A resposta é {resposta}</p>
+<p class="azul">Meu nome é {nome}!</p>
+<p class="vermelho">{a} + {b} = {a + b}</p>
+
+<p>
+	Calculadora de temperatura:
+	<a href="./temperatura">Clique aqui</a>!
+</p>
+
+<Rodape />
+
+<style>
+	.azul {
+		color: blue;
+	}
+
+	.vermelho {
+		color: red;
+	}
+</style>

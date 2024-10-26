@@ -8,7 +8,7 @@ If you're seeing this, you've probably already done this step. Congrats!
 
 ```bash
 # create a new project in my-app
-pnpm create svelte@latest my-app
+pnpm dlx sv create my-app
 ```
 
 ## Developing
@@ -32,7 +32,7 @@ pnpm run build
 
 You can preview the production build with `pnpm run preview`.
 
-> To deploy your app, you may need to install an [adapter](https://kit.svelte.dev/docs/adapters) for your target environment.
+> To deploy your app, you may need to install an [adapter](https://svelte.dev/docs/kit/adapters) for your target environment.
 
 # Prisma
 
