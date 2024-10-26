@@ -125,7 +125,9 @@ main()
             "seed": "node prisma/seed.js"
         }
 
-4. Run `pnpm exec prisma db seed` to seed the database.
+4. Seed the database:
+
+        pnpm exec prisma db seed
 
 ## Explore the data in Prisma Studio
 
