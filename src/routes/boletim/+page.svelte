@@ -1,14 +1,26 @@
 <script>
-	let n1 = $state(0);
-	let n2 = $state(0);
-	let nf = $state(0);
+    let np, nt, ns;
+    let nf = $state(0);
+
+    function calcularnota() {
+        nf = (np * 5 + ns * 3 + nt * 2) / 10;
+    }
 </script>
 
 <h1>Boletim Escolar</h1>
 
-Nota do 1º Bimestre: <input type="number" bind:value={n1} min="0" max="10" />
+Nota da prova:
+<input type="number" bind:value={np} min="0" max="10" />
 <br />
-Nota do 2º Bimestre: <input type="number" bind:value={n2} min="0" max="10" />
+
+Nota do trabalho:
+<input type="number" bind:value={nt} min="0" max="10" />
 <br />
-<button>Calcular a nota final!</button>
+
+Nota do seminário:
+<input type="number" bind:value={ns} min="0" max="10" />
+<br />
+
+<button onclick={calcularnota}> Calcular a nota final!</button>
+
 <p>Tua nota final é: {nf}</p>
