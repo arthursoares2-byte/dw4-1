@@ -25,10 +25,10 @@
 					<a class="nav-link" href="/temperatura">Temperatura</a>
 				</li>
 				<li class="nav-item">
-					<a class="nav-link" href="/customizing">Página customizável</a>
+					<a class="nav-link" href="/personalizacao">Personalização</a>
 				</li>
 				<li class="nav-item">
-					<a class="nav-link" href="/about">Sobre</a>
+					<a class="nav-link" href="/sobre">Sobre</a>
 				</li>
 			</ul>
 		</div>
