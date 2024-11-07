@@ -28,6 +28,9 @@
 					<a class="nav-link" href="/personalizacao">Personalização</a>
 				</li>
 				<li class="nav-item">
+					<a class="nav-link" href="/reatividade">Reatividade</a>
+				</li>
+				<li class="nav-item">
 					<a class="nav-link" href="/sobre">Sobre</a>
 				</li>
 			</ul>
