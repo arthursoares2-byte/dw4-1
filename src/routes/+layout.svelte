@@ -5,7 +5,7 @@
 <nav class="navbar navbar-expand-sm bg-body-tertiary">
 	<div class="container-fluid">
 		<a class="navbar-brand" href="/#">
-			<img src="/logo.png" alt="Logo" width="24" height="24" />
+			<img src="/favicon.png" alt="Logo" width="24" height="24" />
 			DW4
 		</a>
 		<button
@@ -21,7 +21,7 @@
 		</button>
 		<div class="collapse navbar-collapse" id="navbarSupportedContent">
 			<ul class="navbar-nav">
-				<li class="nav-item">
+				<!-- <li class="nav-item">
 					<a class="nav-link" href="/temperatura">Temperatura</a>
 				</li>
 				<li class="nav-item">
@@ -29,7 +29,7 @@
 				</li>
 				<li class="nav-item">
 					<a class="nav-link" href="/reatividade">Reatividade</a>
-				</li>
+				</li> -->
 				<li class="nav-item">
 					<a class="nav-link" href="/sobre">Sobre</a>
 				</li>

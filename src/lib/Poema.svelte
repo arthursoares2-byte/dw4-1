@@ -1,22 +1,34 @@
 <div class="poem-container">
-	<h1 class="poem-title">O Poema da Alma</h1>
+	<h1 class="poem-title">Pequeno</h1>
 
 	<div class="poem-stanza">
-		<p class="poem-line">Quando a noite cai e o silêncio canta,</p>
-		<p class="poem-line">O coração bate de forma mansa.</p>
+		<p class="poem-line">Eu sonho tão grande que deixo as pessoas desconfortáveis.</p>
 	</div>
 
 	<div class="poem-stanza">
-		<p class="poem-line">A lua no céu, brilhando alta,</p>
-		<p class="poem-line">Escreve em estrelas a paz que encanta.</p>
+		<p class="poem-line">
+			Eu sou um deus ancião e imponente, esquecido por muitos e só discutido por pouquíssimos
+			acadêmicos.
+		</p>
+		<p class="poem-line">Então, se eu não acreditar em mim, ninguém mais vai.</p>
 	</div>
 
 	<div class="poem-stanza">
-		<p class="poem-line">E entre os ventos que passam e sussurram,</p>
-		<p class="poem-line">Nossos pensamentos vagam e murmuram.</p>
+		<p class="poem-line">Eu me sinto pequeno, mas até as estrelas são, de certa distância.</p>
 	</div>
 
-	<p class="poem-author">- Autor Desconhecido</p>
+	<div class="poem-stanza">
+		<p class="poem-line">
+			Eu sou uma lagarta, pronta para virar uma borboleta, mas em um covil de cobras.
+		</p>
+	</div>
+
+	<div class="poem-stanza">
+		<p class="poem-line">Eu vivo em um mundo de gigantes,</p>
+		<p class="poem-line">Então eu apenas rezo para que não me matem pelo pecado de ser pequeno.</p>
+	</div>
+
+	<p class="poem-author">- Alana Serra</p>
 </div>
 
 <style>
