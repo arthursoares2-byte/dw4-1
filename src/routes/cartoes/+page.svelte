@@ -2,6 +2,8 @@
   import { cards } from '$lib/data.js';
 </script>
 
+<!-- devo usar props e componentes nesse exercício -->
+
 <div class="row g-4">
   {#each cards as card}
     <div class="col">
