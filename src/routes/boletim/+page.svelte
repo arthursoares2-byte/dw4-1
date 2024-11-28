@@ -1,10 +1,9 @@
 <script>
-  let np, nt, ns;
-  let nf = $state();
+    let { np, nt, ns, nf } = $state();
 
-  function calcularnota() {
-    nf = (np * 5 + ns * 3 + nt * 2) / 10;
-  }
+    function calcularnota() {
+        nf = (np * 5 + ns * 3 + nt * 2) / 10;
+    }
 </script>
 
 <h1>Boletim Escolar</h1>
@@ -26,13 +25,13 @@ Nota do seminário:
 <p>Tua nota final é: {nf || '...'}</p>
 
 {#if nf >= 8.5}
-  <p>Conceito A, aprovado 😁</p>
+    <p>Conceito A, aprovado 😁</p>
 {:else if nf >= 7}
-  <p>Conceito B, aprovado 😎</p>
+    <p>Conceito B, aprovado 😎</p>
 {:else if nf >= 5}
-  <p>Conceito C, recuperação 😅</p>
+    <p>Conceito C, recuperação 😅</p>
 {:else if nf >= 2.5}
-  <p>Conceito D, recuperação 😣</p>
+    <p>Conceito D, recuperação 😣</p>
 {:else if nf}
-  <p>Conceito E, reprovado 😱</p>
+    <p>Conceito E, reprovado 😱</p>
 {/if}
