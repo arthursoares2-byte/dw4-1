@@ -1,5 +1,5 @@
 <script>
-    let { np, nt, ns, nf } = $state();
+    let { np, nt, ns, nf } = $state(0);
 
     function calcularnota() {
         nf = (np * 5 + ns * 3 + nt * 2) / 10;

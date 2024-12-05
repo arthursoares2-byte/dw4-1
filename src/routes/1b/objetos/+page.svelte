@@ -12,6 +12,6 @@
 
 <p id="identificacao" class="alguns estilos">Este é um parágrafo</p>
 
-<p><img src="localizacao/da/imagem.jpg" alt="descrição textual da imagem" /></p>
+<p><img src="/favicon.png" alt="descrição textual da imagem" /></p>
 
-<p><a href="endereço/do/link">um link</a></p>
+<p><a href="./">um link</a></p>
